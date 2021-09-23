@@ -1,0 +1,266 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-20T12:20:07.460Z",
+        "line": 11,
+        "name": "To do Data driven testing on Login Functionality",
+        "description": "",
+        "id": "login-functionality;to-do-data-driven-testing-on-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5573000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1406000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username and password as \"demouser\" \u0026\"password\" \u0026 clicks on login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demouser\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.user_enters_username_and_password_as_clicks_on_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d93.0.4577.82)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-4CCT83U9\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_301\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\shiva\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55733}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9f2924399ee2f181a772785f8d628c7a\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat stepDefinition.DataDriverFrontAccountingSteps.login_be_happen(DataDriverFrontAccountingSteps.java:34)\r\n\tat ✽.login \"should\" be happen(file:///C:/Users/shiva/eclipse-workspace/tsl949-Cucumber/src/test/resources/features/DataDrivenFrontAccounting.feature:6)\r\n",
+              "duration": 50000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "login \"should\" be happen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"should\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.login_be_happen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T12:20:14.626Z",
+        "line": 12,
+        "name": "To do Data driven testing on Login Functionality",
+        "description": "",
+        "id": "login-functionality;to-do-data-driven-testing-on-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3984000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 969000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username and password as \"admin\" \u0026\"admin123\" \u0026 clicks on login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.user_enters_username_and_password_as_clicks_on_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login \"shouldNot\" be happen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shouldNot\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.login_be_happen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T12:20:19.604Z",
+        "line": 13,
+        "name": "To do Data driven testing on Login Functionality",
+        "description": "",
+        "id": "login-functionality;to-do-data-driven-testing-on-login-functionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4238000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 823000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username and password as \"hr\" \u0026\"hr123\" \u0026 clicks on login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"hr123\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.user_enters_username_and_password_as_clicks_on_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login \"shouldNot\" be happen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shouldNot\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.login_be_happen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-20T12:20:24.693Z",
+        "line": 14,
+        "name": "To do Data driven testing on Login Functionality",
+        "description": "",
+        "id": "login-functionality;to-do-data-driven-testing-on-login-functionality;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5258000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 800000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username and password as \"demo\" \u0026\"demo123\" \u0026 clicks on login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"demo123\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.user_enters_username_and_password_as_clicks_on_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login \"shouldNot\" be happen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shouldNot\"",
+                  "offset": 6
+                }
+              ],
+              "location": "stepDefinition.DataDriverFrontAccountingSteps.login_be_happen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DataDrivenFrontAccounting.feature",
+    "tags": []
+  }
+]
